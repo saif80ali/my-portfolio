@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --success: #70f5cf;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner {
+  background-image: url('./assets/hero-bg.svg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-transparent {
+  background: transparent;
+}
+.user-section {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100%;
+  justify-content: space-between;
+}
+.user-info, .user-profile {
+  padding-bottom: 10%;
+  @media screen and (min-width:999px) {
+    width: 49.5%;
+  }
+}
+.user-profile {
+  text-align: center;
+  @media screen and (max-width:1000px) {
+    display: none;
+  }
+}
+.user-profile img {
+  height: 375px;
+}
+.custom-button {
+  border-radius: 50px;
+  padding: 8px 30px;
+  color: white;
+  background-color: var(--success);
+}
+.custom-button:hover {
+  background-color: white;
+  color: black;
+}
+.random-text {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-nav a {
+position: relative;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav a:after{
+transition: all .5s;
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+width: 0%;
+content: '.';
+color: transparent;
+background: #aaa;
+height: 1px;
+}
+.navbar-nav a:hover:after {
+width: 100%;
 }
