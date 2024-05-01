@@ -1,0 +1,34 @@
+
+:root {
+    --success: #21e1cf;
+}
+.banner {
+    background-image: url('../assets/hero-bg.svg');
+    height: calc(100vh - 56px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.user-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.user-info, .user-profile {
+    width: 50%;
+    padding-bottom: 8%;
+}
+.user-profile img {
+    height: 375px;
+}
+.custom-button {
+    border-radius: 50px;
+    padding: 8px 30px;
+    color: white;
+    background-color: var(--success);
+}
+.custom-button:hover {
+    background-color: white;
+    color: black;
+}
