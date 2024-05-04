@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
 import userImage from '../assets/person-with-laptop.svg';
-import Navbar from './Navbar';
 
 
 export default function HomeSection() {
@@ -20,7 +19,6 @@ export default function HomeSection() {
 
   return (
     <section className='banner'>
-      <Navbar></Navbar>
         <div className="container user-section">
         <div className='user-profile'>
                 <img src={userImage} alt='User with computer' />

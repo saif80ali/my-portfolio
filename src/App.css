@@ -1,7 +1,9 @@
-
 :root {
   --success: #70f5cf;
+  --sea-green:#21e1cd;
+  --text-dark:#263238;
 }
+
 .banner {
   background-image: url('./assets/hero-bg.svg');
   height: 100vh;
@@ -9,8 +11,8 @@
   background-size: cover;
   background-position: center;
 }
-.nav-transparent {
-  background: transparent;
+.navbar-light .navbar-nav a.nav-link:hover {
+  color: var(--sea-green);
 }
 .user-section {
   display: flex;
@@ -21,15 +23,9 @@
 }
 .user-info, .user-profile {
   padding-bottom: 10%;
-  @media screen and (min-width:999px) {
-    width: 49.5%;
-  }
 }
 .user-profile {
   text-align: center;
-  @media screen and (max-width:1000px) {
-    display: none;
-  }
 }
 .user-profile img {
   height: 375px;
@@ -42,28 +38,61 @@
 }
 .custom-button:hover {
   background-color: white;
-  color: black;
 }
 .random-text {
   color: white;
 }
 
-.navbar-nav a {
-position: relative;
+
+/* Style for Timeline */
+.timeline-container {
+  display: grid;
+  column-gap: 3rem;
+  grid-template-columns: 1fr 1fr;
 }
-.navbar-nav a:after{
-transition: all .5s;
-position: absolute;
-bottom: 0;
-left: 0;
-right: 0;
-margin: auto;
-width: 0%;
-content: '.';
-color: transparent;
-background: #aaa;
-height: 1px;
+.timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
 }
-.navbar-nav a:hover:after {
-width: 100%;
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color: var(--sea-green);
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* All media queries */
+@media screen and (min-width:999px) {
+  .user-info, .user-profile {
+    width: 49.5%;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .user-profile {
+    display: none;
+  }
+
+  .timeline-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    max-width: 96%;
+  }
 }
