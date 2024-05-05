@@ -10,11 +10,11 @@ export default function Navbar() {
       </button>
       <div className="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <a className="nav-link fw-bold" aria-current="page" href="/">About</a>
+          <a className="nav-link fw-bold" aria-current="page" href="#about">About</a>
           <a className="nav-link fw-bold" href="/">Projects</a>
           <a className="nav-link fw-bold" href="/">Skills</a>
-          <a className="nav-link fw-bold" href="#about">Resume</a>
-          <a className="nav-link fw-bold" href="/">Contact</a>
+          <a className="nav-link fw-bold" href="#resume">Resume</a>
+          <a className="nav-link fw-bold" href="#contact">Contact</a>
         </div>
       </div>
     </div>

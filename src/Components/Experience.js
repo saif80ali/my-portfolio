@@ -30,11 +30,11 @@ export default function Experience() {
         {
             title:"Bachelor in Computer Applications",
             date:"July 2018 - August 2021",
-            detials:"Finished Bachelor in Computer Applications in 2017 from CAGC, Kolkata, INDIA"
+            detials:"Completed Bachelor in Computer Applications in 2017 from CAGC, Kolkata, INDIA"
         },
     ]}
   return (
-    <div className="container timeline-container">
+    <div id='resume' className="container timeline-container">
         <Timeline timelineData={workExperience}></Timeline>
         <Timeline timelineData={educationQualification}></Timeline>
     </div>

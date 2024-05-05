@@ -17,7 +17,6 @@
 .user-section {
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 100%;
   justify-content: space-between;
 }
@@ -28,7 +27,7 @@
   text-align: center;
 }
 .user-profile img {
-  height: 375px;
+  width: 375px;
 }
 .custom-button {
   border-radius: 50px;
@@ -78,6 +77,38 @@
   justify-content: center;
 }
 
+/* Contact me */
+.contact-me {
+  background-color: var(--text-dark);
+  padding: 1.5rem;
+}
+.social-media-icons {
+  height: 25px;
+  width: 25px;
+} 
+.social-media {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  column-gap: 25px;
+  justify-content: center;
+  row-gap: 18px;
+}
+.invert-1 {
+  filter: invert(1);
+}
+
+.social-media a {
+  text-decoration: none;
+}
+.social-media a:hover span {
+  color: var(--sea-green);
+}
+.social-media span {
+  margin-left: 8px;
+  color: white;
+}
+
 /* All media queries */
 @media screen and (min-width:999px) {
   .user-info, .user-profile {
@@ -86,13 +117,20 @@
 }
 
 @media screen and (max-width:1000px) {
-  .user-profile {
-    display: none;
+  .user-section {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    padding-top: 25px;
   }
 
   .timeline-container {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     max-width: 96%;
+  }
+}
+@media screen and (max-width:767px) {
+  .user-profile img {
+    width: 70vw;
   }
 }

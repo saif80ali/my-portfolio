@@ -18,7 +18,7 @@ export default function HomeSection() {
   }, 1000);
 
   return (
-    <section className='banner'>
+    <section id="about" className='banner'>
         <div className="container user-section">
         <div className='user-profile'>
                 <img src={userImage} alt='User with computer' />
