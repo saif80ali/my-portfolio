@@ -32,8 +32,15 @@
 .custom-button {
   border-radius: 50px;
   padding: 8px 30px;
-  color: white;
+  display: flex;
   background-color: var(--success);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 250px;
+}
+.custom-button img {
+  height: 20px;
 }
 .custom-button:hover {
   background-color: white;
@@ -109,6 +116,17 @@
   color: white;
 }
 
+/* Carousel styles */
+#carouselExampleAutoplaying .carousel-icons {
+  background-color: var(--text-dark);
+}
+.carousel-item img{
+  width: 100%;
+  height: 85vh;
+  object-position: center;
+  object-fit: contain;
+}
+
 /* All media queries */
 @media screen and (min-width:999px) {
   .user-info, .user-profile {
@@ -132,5 +150,8 @@
 @media screen and (max-width:767px) {
   .user-profile img {
     width: 70vw;
+  }
+  .carousel-item img{
+    max-height: 250px;
   }
 }

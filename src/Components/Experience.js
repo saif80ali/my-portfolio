@@ -4,10 +4,10 @@ import Timeline from "./Timeline";
 export default function Experience() {
     const workExperience = {type:'Experiences', data:[
         {
-            title:"Full Stack Developer",
+            title:"Software Developer",
             organization:"TATA Consultancy Services",
             date:"August 2021 - Current",
-            detials:"As a full stack developer, currently responsible for gathering requirements, refining processes, and creating technical flows based on project needs. Actively involved in the final build of project features, ensuring alignment with client expectations and project objectives."
+            detials:"As a software developer, currently responsible for gathering requirements, refining processes, and creating technical flows based on project needs. Actively involved in the final build of project features, ensuring alignment with client expectations and project objectives."
         },
         {
             title:"Freelancer",
@@ -15,7 +15,7 @@ export default function Experience() {
             detials:"As a freelance developer, provided tailored solutions to clients' needs. Guided college students, fostering innovation and skill development in academic projects."
         },
         {
-            title:"Software Development",
+            title:"Developer",
             date:"July 2020",
             detials:"Embarked on Software Development journey, honing coding, problem-solving, and collaboration skills. Built diverse personal projects, leveraging creativity for efficient solutions driving technological advancement."
         },
