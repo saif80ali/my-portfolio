@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import userImage from '../assets/person-with-laptop.svg';
 import downloadIcon from '../assets/Icons/download.png';
-import resume from '../assets/SaifResume.pdf';
+import resume from '../assets/SaifAliResume.pdf';
 
 
 export default function HomeSection() {
