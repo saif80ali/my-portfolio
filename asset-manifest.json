@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.ee9775fd.css",
-    "main.js": "/my-portfolio/static/js/main.f2fd37e0.js",
+    "main.js": "/my-portfolio/static/js/main.31491040.js",
     "static/js/453.1dfabaaa.chunk.js": "/my-portfolio/static/js/453.1dfabaaa.chunk.js",
     "static/media/Hotel-management.png": "/my-portfolio/static/media/Hotel-management.3501e7ecf3c4c9c21319.png",
     "static/media/NewsMonkey.png": "/my-portfolio/static/media/NewsMonkey.d81d130bdfac67291531.png",
     "static/media/OnlineExaminationSystem.png": "/my-portfolio/static/media/OnlineExaminationSystem.e1bf12ffeecd11f89254.png",
     "static/media/Voice-Assistant.png": "/my-portfolio/static/media/Voice-Assistant.54dc1923ae7ecaa1bc0f.png",
-    "static/media/SaifResume.pdf": "/my-portfolio/static/media/SaifResume.e81678fe251d8a4cea7b.pdf",
+    "static/media/SaifAliResume.pdf": "/my-portfolio/static/media/SaifAliResume.e200998769e8636f3220.pdf",
     "static/media/person-with-laptop.svg": "/my-portfolio/static/media/person-with-laptop.ca8aa694b4c5af1e1ca2da66dec12579.svg",
     "static/media/TicketBookingApp.png": "/my-portfolio/static/media/TicketBookingApp.6763520844ce48a6d648.png",
     "static/media/ToDoManager.png": "/my-portfolio/static/media/ToDoManager.b01042f084585af4129d.png",
@@ -18,11 +18,11 @@
     "static/media/hero-bg.svg": "/my-portfolio/static/media/hero-bg.47ad6c589f1455cdd856.svg",
     "index.html": "/my-portfolio/index.html",
     "main.ee9775fd.css.map": "/my-portfolio/static/css/main.ee9775fd.css.map",
-    "main.f2fd37e0.js.map": "/my-portfolio/static/js/main.f2fd37e0.js.map",
+    "main.31491040.js.map": "/my-portfolio/static/js/main.31491040.js.map",
     "453.1dfabaaa.chunk.js.map": "/my-portfolio/static/js/453.1dfabaaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee9775fd.css",
-    "static/js/main.f2fd37e0.js"
+    "static/js/main.31491040.js"
   ]
 }
