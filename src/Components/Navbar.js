@@ -13,6 +13,7 @@ export default function Navbar() {
           <a className="nav-link fw-bold" aria-current="page" href="#about">About</a>
           <a className="nav-link fw-bold" href="#projects">Projects</a>
           <a className="nav-link fw-bold" href="#resume">Resume</a>
+          <a className="nav-link fw-bold" href="#certification">Certifications</a>
           <a className="nav-link fw-bold" href="#contact">Contact</a>
         </div>
       </div>

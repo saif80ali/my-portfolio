@@ -20,7 +20,7 @@ export default function ContactMe() {
                     <a href="https://github.com/saif80ali" target="_blank" rel="noopener noreferrer"><img className="social-media-icons invert-1" src={github} alt="github" /></a>
                 </div>
                 <div className="social-media mt-4">
-                    <a className="fw-bold" href="tel:6291599480"><img className="social-media-icons invert-1" src={telephone} alt="telephone" /><span>+91 6291599480</span></a>
+                    <a className="fw-bold" href="tel:8013051576"><img className="social-media-icons invert-1" src={telephone} alt="telephone" /><span>+91 8013051576</span></a>
                     <a className="fw-bold" href="mailto:saifalifias@gmail.com"><img className="social-media-icons" src={gmail} alt="gmail" /><span>saifalifias@gmail.com</span></a>
                 </div>
             </div>

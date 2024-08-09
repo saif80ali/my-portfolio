@@ -1,4 +1,5 @@
 import './App.css';
+import Certifications from './Components/Certifications';
 import ContactMe from './Components/ContactMe';
 import Experience from './Components/Experience';
 import HomeSection from './Components/HomeSection';
@@ -12,6 +13,7 @@ function App() {
       <HomeSection></HomeSection>
       <Projects></Projects>
       <Experience></Experience>
+      <Certifications></Certifications>
       <ContactMe></ContactMe>
     </div>
   );
