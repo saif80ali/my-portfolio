@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.ee9775fd.css",
-    "main.js": "/my-portfolio/static/js/main.76b5b3d7.js",
+    "main.js": "/my-portfolio/static/js/main.ff86423f.js",
     "static/js/453.1dfabaaa.chunk.js": "/my-portfolio/static/js/453.1dfabaaa.chunk.js",
     "static/media/Hotel-management.png": "/my-portfolio/static/media/Hotel-management.3501e7ecf3c4c9c21319.png",
     "static/media/NewsMonkey.png": "/my-portfolio/static/media/NewsMonkey.d81d130bdfac67291531.png",
@@ -12,17 +12,18 @@
     "static/media/TicketBookingApp.png": "/my-portfolio/static/media/TicketBookingApp.6763520844ce48a6d648.png",
     "static/media/ToDoManager.png": "/my-portfolio/static/media/ToDoManager.b01042f084585af4129d.png",
     "static/media/instagram.png": "/my-portfolio/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/TicTacToe.png": "/my-portfolio/static/media/TicTacToe.97df78108b2a9c6a4fff.png",
     "static/media/twitter.png": "/my-portfolio/static/media/twitter.ee7686ce501bde413ff6.png",
     "static/media/gmail.png": "/my-portfolio/static/media/gmail.a2f2146f929409405da0.png",
     "static/media/linkedin.png": "/my-portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "static/media/hero-bg.svg": "/my-portfolio/static/media/hero-bg.47ad6c589f1455cdd856.svg",
     "index.html": "/my-portfolio/index.html",
     "main.ee9775fd.css.map": "/my-portfolio/static/css/main.ee9775fd.css.map",
-    "main.76b5b3d7.js.map": "/my-portfolio/static/js/main.76b5b3d7.js.map",
+    "main.ff86423f.js.map": "/my-portfolio/static/js/main.ff86423f.js.map",
     "453.1dfabaaa.chunk.js.map": "/my-portfolio/static/js/453.1dfabaaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee9775fd.css",
-    "static/js/main.76b5b3d7.js"
+    "static/js/main.ff86423f.js"
   ]
 }
