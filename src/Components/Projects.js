@@ -5,6 +5,7 @@ import examinationSystem from "../assets/Projects/OnlineExaminationSystem.png";
 import toDoManager from "../assets/Projects/ToDoManager.png";
 import voiceAssistant from "../assets/Projects/Voice-Assistant.png";
 import ticketBookingApp from "../assets/Projects/TicketBookingApp.png";
+import tictactoe from "../assets/Projects/TicTacToe.png";
 import EachCarousel from "./EachCarousel";
 
 export default function Projects() {
@@ -44,6 +45,12 @@ export default function Projects() {
       title: "Online Examination System",
       description:
         "Efficient platform for secure online assessments and exams",
+    },
+    {
+      image: tictactoe,
+      title: "Tic Tac Toe",
+      description:
+        "Tic Tac Toe game with 2 modes. Player VS Player and Player VS Computer",
     },
   ];
   return (
