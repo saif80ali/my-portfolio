@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.ee9775fd.css",
-    "main.js": "/my-portfolio/static/js/main.ff86423f.js",
+    "main.js": "/my-portfolio/static/js/main.fa21ae55.js",
     "static/js/453.1dfabaaa.chunk.js": "/my-portfolio/static/js/453.1dfabaaa.chunk.js",
     "static/media/Hotel-management.png": "/my-portfolio/static/media/Hotel-management.3501e7ecf3c4c9c21319.png",
     "static/media/NewsMonkey.png": "/my-portfolio/static/media/NewsMonkey.d81d130bdfac67291531.png",
@@ -19,11 +19,11 @@
     "static/media/hero-bg.svg": "/my-portfolio/static/media/hero-bg.47ad6c589f1455cdd856.svg",
     "index.html": "/my-portfolio/index.html",
     "main.ee9775fd.css.map": "/my-portfolio/static/css/main.ee9775fd.css.map",
-    "main.ff86423f.js.map": "/my-portfolio/static/js/main.ff86423f.js.map",
+    "main.fa21ae55.js.map": "/my-portfolio/static/js/main.fa21ae55.js.map",
     "453.1dfabaaa.chunk.js.map": "/my-portfolio/static/js/453.1dfabaaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee9775fd.css",
-    "static/js/main.ff86423f.js"
+    "static/js/main.fa21ae55.js"
   ]
 }
