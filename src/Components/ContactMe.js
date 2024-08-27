@@ -15,7 +15,7 @@ export default function ContactMe() {
                 <div className="social-media">
                     <a href="https://www.instagram.com/saifali_fias/" target="_blank" rel="noopener noreferrer"><img className="social-media-icons" src={instagram} alt="Instagram" /></a>
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img className="social-media-icons" src={facebook} alt="facebook" /></a>
-                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><img className="social-media-icons invert-1" src={twitter} alt="twitter" /></a>
+                    <a href="https://x.com/saifali_fias" target="_blank" rel="noopener noreferrer"><img className="social-media-icons invert-1" src={twitter} alt="twitter" /></a>
                     <a href="https://www.linkedin.com/in/saif-ali-5ab917171/" target="_blank" rel="noopener noreferrer"><img className="social-media-icons" src={linkedin} alt="Linkedin" /></a>
                     <a href="https://github.com/saif80ali" target="_blank" rel="noopener noreferrer"><img className="social-media-icons invert-1" src={github} alt="github" /></a>
                 </div>
