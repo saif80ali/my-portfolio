@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.ee9775fd.css",
-    "main.js": "/my-portfolio/static/js/main.fa21ae55.js",
+    "main.js": "/my-portfolio/static/js/main.f5ecdaf8.js",
     "static/js/453.1dfabaaa.chunk.js": "/my-portfolio/static/js/453.1dfabaaa.chunk.js",
     "static/media/Hotel-management.png": "/my-portfolio/static/media/Hotel-management.3501e7ecf3c4c9c21319.png",
     "static/media/NewsMonkey.png": "/my-portfolio/static/media/NewsMonkey.d81d130bdfac67291531.png",
@@ -9,8 +9,8 @@
     "static/media/Voice-Assistant.png": "/my-portfolio/static/media/Voice-Assistant.54dc1923ae7ecaa1bc0f.png",
     "static/media/SaifAliResume.pdf": "/my-portfolio/static/media/SaifAliResume.e200998769e8636f3220.pdf",
     "static/media/person-with-laptop.svg": "/my-portfolio/static/media/person-with-laptop.ca8aa694b4c5af1e1ca2da66dec12579.svg",
+    "static/media/ToDoManager.png": "/my-portfolio/static/media/ToDoManager.b137314bd0b1b68e1455.png",
     "static/media/TicketBookingApp.png": "/my-portfolio/static/media/TicketBookingApp.6763520844ce48a6d648.png",
-    "static/media/ToDoManager.png": "/my-portfolio/static/media/ToDoManager.b01042f084585af4129d.png",
     "static/media/instagram.png": "/my-portfolio/static/media/instagram.e719d8b29f452a16302d.png",
     "static/media/TicTacToe.png": "/my-portfolio/static/media/TicTacToe.97df78108b2a9c6a4fff.png",
     "static/media/twitter.png": "/my-portfolio/static/media/twitter.ee7686ce501bde413ff6.png",
@@ -19,11 +19,11 @@
     "static/media/hero-bg.svg": "/my-portfolio/static/media/hero-bg.47ad6c589f1455cdd856.svg",
     "index.html": "/my-portfolio/index.html",
     "main.ee9775fd.css.map": "/my-portfolio/static/css/main.ee9775fd.css.map",
-    "main.fa21ae55.js.map": "/my-portfolio/static/js/main.fa21ae55.js.map",
+    "main.f5ecdaf8.js.map": "/my-portfolio/static/js/main.f5ecdaf8.js.map",
     "453.1dfabaaa.chunk.js.map": "/my-portfolio/static/js/453.1dfabaaa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee9775fd.css",
-    "static/js/main.fa21ae55.js"
+    "static/js/main.f5ecdaf8.js"
   ]
 }
