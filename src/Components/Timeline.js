@@ -11,7 +11,7 @@ export default function Timeline({ timelineData }) {
             return (
               <li key={element.title} className="timeline-item mb-4">
                 <span className="timeline-icon">
-                    <img src={element.iconPath} />
+                    <img src={element.iconPath} alt="Timeline icon" />
                 </span>
 
                 <h3 className="fw-bold">{element.title}</h3>
