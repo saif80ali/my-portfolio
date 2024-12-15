@@ -1,7 +1,17 @@
 {
   "routes": [
     {
-      "route": "/{*path}",
+      "route": "/{*path}.html",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/{*path}.js",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/{*path}.css",
       "serve": "/index.html",
       "statusCode": 200
     }
