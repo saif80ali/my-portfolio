@@ -43,7 +43,7 @@ export default function Certifications() {
                     <p>{element.courseName}</p>
                     <footer className="blockquote-footer">Obtained from: <cite className="text-muted fw-bold" title={element.vendor}>{element.vendor}</cite></footer>
                 </blockquote>
-                <a href={element.link} target="_blank" className="btn btn-link">View certificate &gt; </a>
+                <a href={element.link} target="_blank" rel="noreferrer" className="btn btn-link">View certificate &gt; </a>
                 </div>
               </div>
           );
