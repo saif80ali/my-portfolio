@@ -2,7 +2,7 @@ import React from "react";
 import hotel from "../assets/Projects/Hotel-management.png";
 import newsMonkey from "../assets/Projects/NewsMonkey.png";
 import examinationSystem from "../assets/Projects/OnlineExaminationSystem.png";
-import toDoManager from "../assets/Projects/ToDoManager.png";
+import noteXchange from "../assets/Projects/ToDoManager.png";
 import voiceAssistant from "../assets/Projects/Voice-Assistant.png";
 import ticketBookingApp from "../assets/Projects/TicketBookingApp.png";
 import tictactoe from "../assets/Projects/TicTacToe.png";
@@ -23,8 +23,8 @@ export default function Projects() {
         "Efficient hotel management app with seamless guest communication.",
     },
     {
-      image: toDoManager,
-      title: "To do Manager",
+      image: noteXchange,
+      title: "NoteXchange",
       description:
         "Efficient task manager for daily productivity.",
     },
