@@ -1,17 +1,17 @@
 {
   "routes": [
     {
-      "route": "/{*path}.html",
+      "route": "/{*path}.html",  // Matches all paths with .html extension
       "serve": "/index.html",
       "statusCode": 200
     },
     {
-      "route": "/{*path}.js",
+      "route": "/{*path}.js",    // Matches all JS files as well (if needed)
       "serve": "/index.html",
       "statusCode": 200
     },
     {
-      "route": "/{*path}.css",
+      "route": "/{*path}.css",   // Matches all CSS files (if needed)
       "serve": "/index.html",
       "statusCode": 200
     }
