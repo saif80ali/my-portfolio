@@ -21,7 +21,7 @@ export default function ContactMe() {
                 </div>
                 <div className="social-media mt-4">
                     <a className="fw-bold" href="tel:8013051576"><img className="social-media-icons invert-1" src={telephone} alt="telephone" /><span>+91 8013051576</span></a>
-                    <a className="fw-bold" href="mailto:saifalifias@gmail.com"><img className="social-media-icons" src={gmail} alt="gmail" /><span>saifalifias@gmail.com</span></a>
+                    <a className="fw-bold" href="mailto:mdsaif80ali@gmail.com"><img className="social-media-icons" src={gmail} alt="gmail" /><span>mdsaif80ali@gmail.com</span></a>
                 </div>
             </div>
         </div>

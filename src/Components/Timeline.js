@@ -21,7 +21,7 @@ export default function Timeline({ timelineData }) {
                   </p>
                 )}
                 <p className="text-muted mb-2 fw-bold">{element.date}</p>
-                <p className="text-muted">{element.detials}</p>
+                <p className="text-muted">{element.details}</p>
               </li>
             );
           })}
@@ -37,7 +37,7 @@ Timeline.propTypes = {
         title: PropTypes.string,
         date: PropTypes.string,
         organization: PropTypes.string,
-        detials: PropTypes.string,
+        details: PropTypes.string,
       })
     ),
   }),
